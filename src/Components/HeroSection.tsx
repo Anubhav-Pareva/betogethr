@@ -3,7 +3,8 @@ import { images } from "../Constants/Images";
 
 export default function HeroSection() {
   return (
-    <section className="bg-gray-900 max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+    <section className="bg-gray-900 ">
+      <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
       {/* LEFT CONTENT */}
       <div className="space-y-6">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-blue-100">
@@ -89,6 +90,7 @@ export default function HeroSection() {
             Find your love
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

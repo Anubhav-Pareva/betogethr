@@ -4,16 +4,18 @@ import FaqSection from "../Components/FaqSection";
 import HeroSection from "../Components/HeroSection";
 import StackedCardsSection from "../Components/StackedCardsSection";
 import TestimonialSlider from "../Components/TestimonialSlider";
+import VideoSection from "../Components/VideoSection";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
       <DatingIntroSection />
-      <FaqSection />
+      <StackedCardsSection />
+      <VideoSection/>
       <DownloadSection />
       <TestimonialSlider />
-      <StackedCardsSection />
+      <FaqSection />
     </>
   );
 }

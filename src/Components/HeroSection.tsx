@@ -3,20 +3,20 @@ import { images } from "../Constants/Images";
 
 export default function HeroSection() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+    <section className="bg-gray-900 max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
       {/* LEFT CONTENT */}
       <div className="space-y-6">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-gray-800">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-blue-100">
           Find your love
         </h2>
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight">
+        <h1 className="text-white text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight">
           By being{" "}
           <span className="bg-linear-to-r from-yellow-400 via-purple-500 to-blue-500 bg-clip-text text-transparent">
             Yourself
           </span>
         </h1>
 
-        <p className="text-gray-500 text-base sm:text-lg max-w-md">
+        <p className="text-blue-50 text-base sm:text-lg max-w-md">
           We designed a platform for people of LGBT to find their love without
           being judged.
         </p>
@@ -30,22 +30,22 @@ export default function HeroSection() {
         <div className="flex flex-wrap gap-8 pt-8">
           <div className="flex flex-col items-start">
             <img src={icons.heart} alt="Members" className="w-12 h-12" />
-            <p className="font-bold text-gray-800">10k+ Members</p>
-            <p className="text-gray-500 text-sm">
+            <p className="font-bold text-gray-400">10k+ Members</p>
+            <p className="text-blue-50 text-sm">
               Over thousands of people are using happymatch
             </p>
           </div>
           <div className="flex flex-col items-start">
             <img src={icons.safe} alt="AI" className="w-12 h-12" />
-            <p className="font-bold text-gray-800">Smart AI</p>
-            <p className="text-gray-500 text-sm">
+            <p className="font-bold text-gray-400">Smart AI</p>
+            <p className="text-blue-50 text-sm">
               Best match based on intelligent algorithm
             </p>
           </div>
           <div className="flex flex-col items-start">
             <img src={icons.match} alt="Perfect Match" className="w-12 h-12" />
-            <p className="font-bold text-gray-800">Perfect Match</p>
-            <p className="text-gray-500 text-sm">
+            <p className="font-bold text-gray-400">Perfect Match</p>
+            <p className="text-blue-50 text-sm">
               10k+ people are happy using our platform
             </p>
           </div>

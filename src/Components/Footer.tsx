@@ -2,17 +2,17 @@ import { Facebook, Twitter, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-200">
+    <footer className="bg-gray-900 border-t border-gray-200">
       <div className=" mx-auto px-6 py-12 flex flex-col md:flex-row justify-center gap-10">
         {/* LEFT SIDE */}
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">
+          {/* <h1 className="text-2xl font-bold text-white">
             Be
             <span className="text-transparent bg-clip-text bg-linear-to-r from-yellow-400 via-purple-500 to-blue-500">
               TOGETHR
             </span>
-          </h1>
-          <p className="mt-3 text-gray-500 max-w-md text-sm leading-relaxed">
+          </h1> */}
+          <p className="mt-3 text-white max-w-md text-sm leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec massa
             ante orci at ac ut pharetra ultricies quis. Neque dictum volutpat
             arcu nisl. Magna ut.
@@ -22,12 +22,12 @@ export default function Footer() {
         {/* RIGHT SIDE */}
         <div className="grid grid-cols-3 gap-6 text-sm">
           <div>
-            <h3 className="font-semibold text-gray-800 mb-3">Services</h3>
+            <h3 className="font-semibold text-white mb-3">Services</h3>
             <ul className="space-y-2">
               <li>
                 <a
                   href="#"
-                  className="text-gray-500 hover:text-gray-800 transition"
+                  className="text-blue-50 hover:text-gray-400 transition"
                 >
                   Email Marketing
                 </a>
@@ -35,7 +35,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-gray-500 hover:text-gray-800 transition"
+                  className="text-blue-50 hover:text-gray-400 transition"
                 >
                   Campaigns
                 </a>
@@ -44,12 +44,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-gray-800 mb-3">About</h3>
+            <h3 className="font-semibold text-white mb-3">About</h3>
             <ul className="space-y-2">
               <li>
                 <a
                   href="#"
-                  className="text-gray-500 hover:text-gray-800 transition"
+                  className="text-blue-50 hover:text-gray-400 transition"
                 >
                   Our Story
                 </a>
@@ -57,7 +57,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-gray-500 hover:text-gray-800 transition"
+                  className="text-blue-50 hover:text-gray-400 transition"
                 >
                   Benefits
                 </a>
@@ -66,23 +66,23 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col align-">
-            <h3 className="font-semibold text-gray-800 mb-3">Follow Us</h3>
+            <h3 className="font-semibold text-white mb-3">Follow Us</h3>
             <div className="flex gap-4">
               <a
                 href="#"
-                className="text-gray-500 hover:text-blue-600 transition"
+                className="text-blue-50 hover:text-blue-600 transition"
               >
                 <Facebook size={18} />
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-sky-500 transition"
+                className="text-blue-50 hover:text-sky-500 transition"
               >
                 <Twitter size={18} />
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-pink-500 transition"
+                className="text-blue-50 hover:text-pink-500 transition"
               >
                 <Instagram size={18} />
               </a>

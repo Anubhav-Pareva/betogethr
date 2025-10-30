@@ -28,18 +28,18 @@ export default function NavBar({ isOpen, setIsOpen }: NavBarProps) {
     },
   ];
   return (
-    <nav className="bg-white shadow-sm fixed top-0 left-0 w-full z-50">
+    <nav className="bg-gray-900 shadow-sm fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <h1 className="text-2xl font-bold text-gray-900">
+          {/* <div className="flex items-center gap-2">
+            <h1 className="text-2xl font-bold text-white">
               Be
               <span className="text-transparent bg-clip-text bg-linear-to-r from-yellow-400 via-purple-500 to-blue-500">
                 TOGETHR
               </span>
             </h1>
-          </div>
+          </div> */}
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
@@ -50,8 +50,8 @@ export default function NavBar({ isOpen, setIsOpen }: NavBarProps) {
                 className={({ isActive }) =>
                     `pb-1 border-b-2 transition-all duration-200 ${
                       isActive
-                        ? "border-blue-600 text-blue-600"
-                        : "border-transparent text-gray-700 hover:border-blue-400 hover:text-blue-600"
+                        ? "border-blue-300 text-blue-300"
+                        : "border-transparent text-white hover:border-blue-400 hover:text-blue-400"
                     }`
                   }
               >
@@ -65,7 +65,7 @@ export default function NavBar({ isOpen, setIsOpen }: NavBarProps) {
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-800 hover:text-blue-600"
             >
-              {isOpen ? <X size={26} /> : <Menu size={26} />}
+              {isOpen ? <X color="white" size={26} /> : <Menu color="white" size={26} />}
             </button>
           </div>
         </div>

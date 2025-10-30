@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 interface NavBarProps {
   isOpen: boolean;
@@ -44,13 +44,19 @@ export default function NavBar({ isOpen, setIsOpen }: NavBarProps) {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <Link
+              <NavLink
                 key={link.id}
                 to={link.url}
-                className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+                className={({ isActive }) =>
+                    `pb-1 border-b-2 transition-all duration-200 ${
+                      isActive
+                        ? "border-blue-600 text-blue-600"
+                        : "border-transparent text-gray-700 hover:border-blue-400 hover:text-blue-600"
+                    }`
+                  }
               >
                 {link.title}
-              </Link>
+              </NavLink>
             ))}
           </div>
           {/* Mobile Menu Button */}

@@ -93,7 +93,7 @@ export default function Footer() {
 
       {/* Bottom line (optional) */}
       <div className="border-t border-gray-100 text-center py-4 text-gray-400 text-xs">
-        © {new Date().getFullYear()} BeYOU. All rights reserved.
+        © {new Date().getFullYear()} BeTOGETHR. All rights reserved.
       </div>
     </footer>
   );

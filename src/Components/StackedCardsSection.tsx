@@ -16,15 +16,16 @@ export default function StackedCardsSection() {
             }`}
             style={{ top: item.top }}
           >
+                <h1 className="text-center text-2xl md:text-3xl text-white">{item.title}</h1>
+
             <div
-              className="items-start justify-center h-full gap-4"
+              className="items-center justify-center h-full gap-4 p-4"
               style={{
                 display: "flex",
                 flexDirection: item.id % 2 === 0 ? "row" : "row-reverse",
               }}
             >
               <div className="flex flex-col gap-4 w-full md:w-[50%]">
-                <h1 className="text-center text-2xl md:text-3xl text-white">{item.title}</h1>
                 <p className="text-white text-[18px] font-light">{item.description}</p>
               </div>
               <div className="flex items-center justify-center w-auto h-full">

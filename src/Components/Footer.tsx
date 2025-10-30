@@ -1,0 +1,100 @@
+import { Facebook, Twitter, Instagram } from "lucide-react";
+
+export default function Footer() {
+  return (
+    <footer className="bg-white border-t border-gray-200">
+      <div className=" mx-auto px-6 py-12 flex flex-col md:flex-row gap-10">
+        {/* LEFT SIDE */}
+        <div>
+          <h1 className="text-2xl font-bold text-gray-900">
+            Be
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-yellow-400 via-purple-500 to-blue-500">
+              TOGETHR
+            </span>
+          </h1>
+          <p className="mt-3 text-gray-500 max-w-md text-sm leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec massa
+            ante orci at ac ut pharetra ultricies quis. Neque dictum volutpat
+            arcu nisl. Magna ut.
+          </p>
+        </div>
+        <div className="h-0.5 md:h-auto md:w-0.5 rounded-2xl bg-linear-to-r md:bg-linear-to-b from-yellow-400 via-purple-500 to-blue-500"/>
+        {/* RIGHT SIDE */}
+        <div className="grid grid-cols-3 gap-6 text-sm">
+          <div>
+            <h3 className="font-semibold text-gray-800 mb-3">Services</h3>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-500 hover:text-gray-800 transition"
+                >
+                  Email Marketing
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-500 hover:text-gray-800 transition"
+                >
+                  Campaigns
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-gray-800 mb-3">About</h3>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-500 hover:text-gray-800 transition"
+                >
+                  Our Story
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-500 hover:text-gray-800 transition"
+                >
+                  Benefits
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col align-">
+            <h3 className="font-semibold text-gray-800 mb-3">Follow Us</h3>
+            <div className="flex gap-4">
+              <a
+                href="#"
+                className="text-gray-500 hover:text-blue-600 transition"
+              >
+                <Facebook size={18} />
+              </a>
+              <a
+                href="#"
+                className="text-gray-500 hover:text-sky-500 transition"
+              >
+                <Twitter size={18} />
+              </a>
+              <a
+                href="#"
+                className="text-gray-500 hover:text-pink-500 transition"
+              >
+                <Instagram size={18} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom line (optional) */}
+      <div className="border-t border-gray-100 text-center py-4 text-gray-400 text-xs">
+        © {new Date().getFullYear()} BeYOU. All rights reserved.
+      </div>
+    </footer>
+  );
+}

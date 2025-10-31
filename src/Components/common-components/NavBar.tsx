@@ -1,32 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import { homeNavLinks } from "../../Constants/Data";
 interface NavBarProps {
   isOpen: boolean;
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 export default function NavBar({ isOpen, setIsOpen }: NavBarProps) {
-  const navLinks = [
-    {
-      id: 1,
-      title: "Home",
-      url: "/",
-    },
-    {
-      id: 2,
-      title: "About",
-      url: "/about",
-    },
-    {
-      id: 3,
-      title: "Privacy Policy",
-      url: "/privacy",
-    },
-    {
-      id: 4,
-      title: "Terms & Conditions",
-      url: "/conditions",
-    },
-  ];
   return (
     <nav className="bg-gray-900 shadow-sm fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
@@ -43,17 +22,17 @@ export default function NavBar({ isOpen, setIsOpen }: NavBarProps) {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
+            {homeNavLinks.map((link) => (
               <NavLink
                 key={link.id}
                 to={link.url}
                 className={({ isActive }) =>
-                    `pb-1 border-b-2 transition-all duration-200 ${
-                      isActive
-                        ? "border-blue-300 text-blue-300"
-                        : "border-transparent text-white hover:border-blue-400 hover:text-blue-400"
-                    }`
-                  }
+                  `pb-1 border-b-2 transition-all duration-200 ${
+                    isActive
+                      ? "border-blue-300 text-blue-300"
+                      : "border-transparent text-white hover:border-blue-400 hover:text-blue-400"
+                  }`
+                }
               >
                 {link.title}
               </NavLink>
@@ -65,7 +44,11 @@ export default function NavBar({ isOpen, setIsOpen }: NavBarProps) {
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-800 hover:text-blue-600"
             >
-              {isOpen ? <X color="white" size={26} /> : <Menu color="white" size={26} />}
+              {isOpen ? (
+                <X color="white" size={26} />
+              ) : (
+                <Menu color="white" size={26} />
+              )}
             </button>
           </div>
         </div>
@@ -75,7 +58,7 @@ export default function NavBar({ isOpen, setIsOpen }: NavBarProps) {
       {isOpen && (
         <div className="md:hidden bg-white shadow-md">
           <div className="flex flex-col items-start px-6 py-4 space-y-4">
-            {navLinks.map((link) => (
+            {homeNavLinks.map((link) => (
               <Link
                 key={link.id}
                 to={link.url}

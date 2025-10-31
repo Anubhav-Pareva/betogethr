@@ -1,5 +1,10 @@
-export default function About(){
-    return(
-        <div>About</div>
-    )
+
+import { aboutSideNav } from "../Constants/Data";
+import SecondaryLayout from "../Layouts/SecondaryLayout";
+
+export default function About() {
+  return (
+    <SecondaryLayout data={aboutSideNav}>
+    </SecondaryLayout>
+  );
 }

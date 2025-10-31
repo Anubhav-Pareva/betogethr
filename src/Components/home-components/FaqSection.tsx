@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { ArrowRight, ArrowDownLeft } from "lucide-react";
-import { faqs } from "../Constants/Data";
-
+import { faqs } from "../../Constants/Data";
 
 export default function FaqSection() {
   const itemsPerPage = 3;

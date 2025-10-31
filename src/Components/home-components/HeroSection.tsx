@@ -1,5 +1,5 @@
-import { icons } from "../Constants/Icons";
-import { images } from "../Constants/Images";
+import { icons } from "../../Constants/Icons";
+import { images } from "../../Constants/Images";
 
 export default function HeroSection() {
   return (

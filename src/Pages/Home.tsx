@@ -1,10 +1,11 @@
-import DatingIntroSection from "../Components/DatingIntroSection";
-import DownloadSection from "../Components/DownloadSection";
-import FaqSection from "../Components/FaqSection";
-import HeroSection from "../Components/HeroSection";
-import StackedCardsSection from "../Components/StackedCardsSection";
-import TestimonialSlider from "../Components/TestimonialSlider";
-import VideoSection from "../Components/VideoSection";
+import DatingIntroSection from "../Components/home-components/DatingIntroSection";
+import DownloadSection from "../Components/home-components/DownloadSection";
+import FaqSection from "../Components/home-components/FaqSection";
+import HeroSection from "../Components/home-components/HeroSection";
+import StackedCardsSection from "../Components/home-components/StackedCardsSection";
+import TestimonialSlider from "../Components/home-components/TestimonialSlider";
+import VideoSection from "../Components/home-components/VideoSection";
+
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <HeroSection />
       <DatingIntroSection />
       <StackedCardsSection />
-      <VideoSection/>
+      <VideoSection />
       <DownloadSection />
       <TestimonialSlider />
       <FaqSection />

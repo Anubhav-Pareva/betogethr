@@ -1,4 +1,5 @@
-import { featureList } from "../Constants/Data";
+import { featureList } from "../../Constants/Data";
+
 
 export default function StackedCardsSection() {
   return (

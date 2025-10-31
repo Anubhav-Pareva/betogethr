@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { icons } from "../Constants/Icons";
+import { icons } from "../../Constants/Icons";
 
 export default function TestimonialSlider() {
   const testimonials = [

@@ -1,4 +1,4 @@
-import { videos } from "../Constants/Videos";
+import { videos } from "../../Constants/Videos";
 
 const VideoSection = () => {
   return (

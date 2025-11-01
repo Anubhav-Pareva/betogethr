@@ -1,4 +1,10 @@
 import { Facebook, Twitter, Instagram } from "lucide-react";
+import FooterNavList from "./FooterNavList";
+import {
+  communityFooterNav,
+  companyFooterNav,
+  legalFooterNav,
+} from "../../Constants/Data";
 
 export default function Footer() {
   return (
@@ -18,52 +24,13 @@ export default function Footer() {
             arcu nisl. Magna ut.
           </p>
         </div>
-        <div className="h-0.5 md:h-auto md:w-0.5 rounded-2xl bg-linear-to-r md:bg-linear-to-b from-yellow-400 via-purple-500 to-blue-500"/>
+        <div className="h-0.5 md:h-auto md:w-0.5 rounded-2xl bg-linear-to-r md:bg-linear-to-b from-yellow-400 via-purple-500 to-blue-500" />
         {/* RIGHT SIDE */}
-        <div className="grid grid-cols-3 gap-6 text-sm">
-          <div>
-            <h3 className="font-semibold text-white mb-3">Services</h3>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="#"
-                  className="text-blue-50 hover:text-gray-400 transition"
-                >
-                  Email Marketing
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-blue-50 hover:text-gray-400 transition"
-                >
-                  Campaigns
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-sm">
+          <FooterNavList title="Legal" data={legalFooterNav} />
 
-          <div>
-            <h3 className="font-semibold text-white mb-3">About</h3>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="#"
-                  className="text-blue-50 hover:text-gray-400 transition"
-                >
-                  Our Story
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-blue-50 hover:text-gray-400 transition"
-                >
-                  Benefits
-                </a>
-              </li>
-            </ul>
-          </div>
+          <FooterNavList title="Community" data={communityFooterNav} />
+          <FooterNavList title="Company" data={companyFooterNav} />
 
           <div className="flex flex-col align-">
             <h3 className="font-semibold text-white mb-3">Follow Us</h3>

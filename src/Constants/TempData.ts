@@ -7,3 +7,46 @@ export const Guidelines_policy = "<h1>Community Guidelines</h1><p>Last updated: 
 export const Refund_policy = "<h1>Refund & Cancellation Policy</h1><p>Last updated: November 1, 2025</p><p>Thank you for using our dating app (\"we\", \"our\", or \"us\"). This Refund & Cancellation Policy outlines the terms regarding subscription payments, cancellations, and refunds.</p><h2>1. Subscription Services</h2><p>Our app may offer premium or paid subscription plans that unlock additional features and benefits. By purchasing a subscription, you agree to our Terms and Conditions and this policy.</p><h2>2. Payment Terms</h2><ul><li>All payments made through the app are processed securely through trusted third-party payment providers.</li><li>Once a payment is completed, it is considered final.</li><li>Subscription charges are billed automatically according to your chosen billing cycle (monthly, quarterly, or annually).</li></ul><h2>3. Refund Policy</h2><ul><li>All purchases are <strong>non-refundable</strong>, except in cases of duplicate or unauthorized transactions.</li><li>If you experience a technical issue preventing use of a purchased feature, please contact us within 48 hours for review.</li><li>Approved refunds will be processed within 7–10 business days.</li></ul><h2>4. Cancellation Policy</h2><ul><li>You may cancel your subscription at any time through the app or respective app store settings (Google Play or Apple App Store).</li><li>Cancellation will stop future renewals, but your current plan will remain active until the end of the billing period.</li></ul><h2>5. Changes to the Policy</h2><p>We may update this Refund & Cancellation Policy at any time. Continued use of our services after updates means you accept the revised policy.</p><h2>6. Contact Us</h2><p>If you have questions about refunds or cancellations, please contact our support team at <a href='mailto:support@yourapp.com'>support@yourapp.com</a>.</p><p>By purchasing a subscription or service, you agree to this Refund & Cancellation Policy.</p>";
 
 export const Safety_policy = "<h1>Safety Policy</h1><p>Last updated: November 1, 2025</p><p>Your safety is our top priority. Our dating app is designed to help you connect with people in a respectful and secure environment. This Safety Policy outlines the precautions and guidelines all users should follow.</p><h2>1. User Verification</h2><ul><li>We encourage all users to verify their profiles for authenticity.</li><li>Do not share personal information (such as address, financial details, or work location) with anyone you don’t fully trust.</li></ul><h2>2. Communication Safety</h2><ul><li>Keep your conversations within the app until you feel comfortable.</li><li>Be cautious if someone pressures you to move the conversation to another platform.</li><li>Never share sensitive information like passwords, OTPs, or bank details.</li></ul><h2>3. Meeting in Person</h2><ul><li>Always meet in a public place for the first few meetings.</li><li>Inform a trusted friend or family member about your meeting plans.</li><li>Arrange your own transport and avoid depending on the other person for pickup or drop.</li></ul><h2>4. Reporting and Blocking</h2><ul><li>If someone behaves inappropriately, makes you uncomfortable, or violates our community standards, use the in-app report or block feature immediately.</li><li>We review all reports seriously and take strict action against violators.</li></ul><h2>5. Fake Profiles and Scams</h2><p>We use automated tools and manual reviews to detect fake accounts and scams. However, please remain vigilant and report suspicious profiles to help us maintain a safe community.</p><h2>6. Community Guidelines</h2><p>All users must treat others with respect and dignity. Harassment, hate speech, discrimination, or explicit content is strictly prohibited.</p><h2>7. Our Responsibility</h2><p>We take all reasonable measures to protect user safety and privacy, but we cannot control user behavior outside the app. Please use your best judgment while interacting with others.</p><h2>8. Contact Us</h2><p>If you have any safety concerns, please contact our safety team at <a href='mailto:safety@yourapp.com'>safety@yourapp.com</a>.</p><p>Your safety is our shared responsibility. Stay cautious, stay kind, and enjoy meaningful connections.</p>";
+
+export const careerData = [
+  {
+    id:1,
+    createdAt: "2025-10-25",
+    job_title: "Figma Designer",
+    description:
+      "We are looking for a creative Figma Designer to craft engaging user interfaces and design systems. You will collaborate closely with developers and product managers to translate ideas into pixel-perfect designs.",
+    office_time: "Full Time",
+    salary: "3LPA",
+    work_type:'WFO'
+  },
+  {
+    id:2,
+    createdAt: "2025-10-26",
+    job_title: "Marketing Executive",
+    description:
+      "Join our marketing team to plan and execute campaigns across social media, digital ads, and email marketing. The ideal candidate has a strong understanding of branding and audience engagement.",
+    office_time: "Full Time",
+    salary: "2.4LPA",
+    work_type:'WFO'
+  },
+  {
+    id:3,
+    createdAt: "2025-10-27",
+    job_title: "React Native Developer",
+    description:
+      "We are seeking a skilled React Native Developer to build and maintain cross-platform mobile applications. Must have experience with React hooks, API integration, and performance optimization.",
+    office_time: "Full Time",
+    salary: "4.2LPA",
+    work_type:'WFO'
+  },
+  {
+    id:4,
+    createdAt: "2025-10-28",
+    job_title: "SEO Specialist",
+    description:
+      "We are hiring an SEO Specialist to optimize website visibility and improve organic traffic. The candidate should have expertise in keyword research, on-page optimization, and analytics tools.",
+    office_time: "Full Time",
+    salary: "2.4LPA",
+    work_type:'WFO'
+  },
+];

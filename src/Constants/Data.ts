@@ -226,3 +226,64 @@ export const investorSideNav = [
     iconwhite: icons.investorContactWhite,
   },
 ];
+export const legalFooterNav = [
+    {
+    id: 1,
+    title: "Privacy Policy",
+    url: "/policies",
+  },
+  {
+    id: 2,
+    title: "Terms & conditions",
+    url: "/Policies/conditions",
+  },
+  {
+    id: 3,
+    title: "Refund Policy",
+    url: "/policies/refund",
+  },
+];
+export const communityFooterNav = [
+  {
+    id: 1,
+    title: "Community Guidelines",
+    url: "/policies/guidelines",
+  },
+  {
+    id: 2,
+    title: "Safety Policy",
+    url: "/policies/safety",
+  },
+  {
+    id: 3,
+    title: "Blogs",
+    url: "/blogs",
+  },
+  {
+    id: 4,
+    title: "Contact",
+    url: "/contact",
+  },
+];
+export const companyFooterNav = [
+  {
+    id: 1,
+    title: "About",
+    url: "/about",
+  },
+  {
+    id: 2,
+    title: "Team",
+    url: "/about/team",
+  },
+  {
+    id: 3,
+    title: "Investor",
+    url: "/investor",
+  },
+  {
+    id: 4,
+    title: "Career",
+    url: "/careers",
+  },
+]

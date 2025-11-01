@@ -8,11 +8,11 @@ export default function MainLayout() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex flex-col pt-[64px] min-h-screen">
+    <div className="flex flex-col pt-16 min-h-screen">
       {/* ✅ Navbar (always visible) */}
       <NavBar isOpen={isOpen} setIsOpen={setIsOpen} />
       {/* ✅ Child route content (changes) */}
-      <main className="flex flex-col flex-1">
+      <main className="flex flex-col flex-1 bg-gray-900 justify-center max-h-[calc(100vh - 321px)]">
         <Outlet /> {/* Renders child page here */}
       </main>
       <Footer />

@@ -1,3 +1,4 @@
+import { icons } from "./Icons";
 import { images } from "./Images";
 
 export const featureList = [
@@ -108,7 +109,7 @@ export const homeNavLinks = [
     title: "Investors",
     url: "/investor",
   },
-   {
+  {
     id: 7,
     title: "Contact Us",
     url: "/contact",
@@ -119,26 +120,36 @@ export const aboutSideNav = [
     id: 1,
     title: "Our Mission",
     url: "/about",
+    iconblack: icons.misionBlack,
+    iconwhite: icons.missionWhite,
   },
   {
     id: 2,
     title: "Our Story",
     url: "/about/our-story",
+    iconblack: icons.storyBlack,
+    iconwhite: icons.storyWhite,
   },
   {
     id: 3,
     title: "Team",
     url: "/about/team",
+    iconblack: icons.teamBlack,
+    iconwhite: icons.teamWhite,
   },
   {
     id: 4,
     title: "Value & Culture",
     url: "/about/value-culture",
+    iconblack: icons.cultureWhite,
+    iconwhite: icons.cultureBlack,
   },
   {
     id: 5,
     title: "Achievements",
     url: "/about/achievements",
+    iconblack: icons.achievementBlack,
+    iconwhite: icons.achievementWhite,
   },
 ];
 export const policiesSideNav = [
@@ -146,26 +157,36 @@ export const policiesSideNav = [
     id: 1,
     title: "Privacy Policy",
     url: "/policies",
+    iconblack: icons.privacyBlack,
+    iconwhite: icons.privacyWhite,
   },
   {
     id: 2,
     title: "Terms & Conditions",
     url: "/policies/conditions",
+    iconblack: icons.tcBlack,
+    iconwhite: icons.tcWhite,
   },
   {
     id: 3,
     title: "Community Guidelines",
     url: "/policies/guidelines",
+    iconblack: icons.guideBlack,
+    iconwhite: icons.guideWhite,
   },
   {
     id: 4,
     title: "Refund Policy",
     url: "/policies/refund",
+    iconblack: icons.refundBlack,
+    iconwhite: icons.refundWhite,
   },
   {
     id: 5,
     title: "Safety Policy",
     url: "/policies/safety",
+    iconblack: icons.safetyBlack,
+    iconwhite: icons.safetyWhite,
   },
 ];
 export const investorSideNav = [

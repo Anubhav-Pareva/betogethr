@@ -10,7 +10,7 @@ export default function FaqSection() {
   const visibleFaqs = faqs.slice(startIndex, startIndex + itemsPerPage);
   const [openIndex, setOpenIndex] = useState<number | null>(startIndex+1);
   const handleToggle = (index: number) => {
-    setOpenIndex(openIndex === index ? startIndex : index);
+    setOpenIndex(openIndex === index ? startIndex+1 : index);
   };
 
   const handleNext = () => {

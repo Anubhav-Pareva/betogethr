@@ -99,9 +99,19 @@ export const homeNavLinks = [
     url: "/about",
   },
   {
-    id: 4,
+    id: 3,
     title: "Policies",
     url: "/policies",
+  },
+  {
+    id: 4,
+    title: "Investors",
+    url: "/investor",
+  },
+   {
+    id: 7,
+    title: "Contact Us",
+    url: "/contact",
   },
 ];
 export const aboutSideNav = [
@@ -141,5 +151,47 @@ export const policiesSideNav = [
     id: 2,
     title: "Terms & Conditions",
     url: "/policies/conditions",
+  },
+  {
+    id: 3,
+    title: "Community Guidelines",
+    url: "/policies/guidelines",
+  },
+  {
+    id: 4,
+    title: "Refund Policy",
+    url: "/policies/refund",
+  },
+  {
+    id: 5,
+    title: "Safety Policy",
+    url: "/policies/safety",
+  },
+];
+export const investorSideNav = [
+  {
+    id: 1,
+    title: "Company Overview",
+    url: "/investor",
+  },
+  {
+    id: 2,
+    title: "Market Opportunity",
+    url: "/investor/opportunity",
+  },
+  {
+    id: 3,
+    title: "Problem & Solution",
+    url: "/investor/problem-solution",
+  },
+  {
+    id: 4,
+    title: "Financial Snapshot",
+    url: "/investor/financial-snapshot",
+  },
+  {
+    id: 5,
+    title: "Investor Contact",
+    url: "/investor/contact",
   },
 ];

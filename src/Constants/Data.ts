@@ -211,13 +211,13 @@ export const investorSideNav = [
      iconblack: icons.solutionBlack,
     iconwhite: icons.solutionWhite,
   },
-  {
-    id: 4,
-    title: "Financial Snapshot",
-    url: "/investor/financial-snapshot",
-     iconblack: icons.financialBlack,
-    iconwhite: icons.financialWhite,
-  },
+  // {
+  //   id: 4,
+  //   title: "Financial Snapshot",
+  //   url: "/investor/financial-snapshot",
+  //    iconblack: icons.financialBlack,
+  //   iconwhite: icons.financialWhite,
+  // },
   {
     id: 5,
     title: "Investor Contact",

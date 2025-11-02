@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import { homeNavLinks } from "../../Constants/Data";
+import { homeNavLinks, mobileHomeNavLinks } from "../../Constants/Data";
 interface NavBarProps {
   isOpen: boolean;
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
@@ -56,20 +56,41 @@ export default function NavBar({ isOpen, setIsOpen }: NavBarProps) {
 
       {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-md">
-          <div className="flex flex-col items-start px-6 py-4 space-y-4">
-            {homeNavLinks.map((link) => (
-              <Link
-                key={link.id}
-                to={link.url}
-                className="w-full text-gray-700 hover:text-blue-600"
-                onClick={() => setIsOpen(false)}
-              >
-                {link.title}
-              </Link>
-            ))}
+        <div className="md:hidden bg-white shadow-md max-h-screen overflow-y-auto">
+  <div className="flex flex-col items-start px-6 py-4 space-y-4">
+    {mobileHomeNavLinks.map((link) => (
+      <div key={link.id} className="w-full">
+        {link.children ? (
+          <div className="w-full text-gray-700 font-medium cursor-default">
+            {link.title}
+            <div className="flex flex-col pl-4 mt-2 space-y-2">
+              {link.children.map((child) => (
+                <Link
+                  key={child.id}
+                  to={child.url}
+                  className="w-full text-gray-600 hover:text-blue-600"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {child.title}
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
+        ) : (
+          <Link
+            to={link.url}
+            className="w-full text-gray-700 hover:text-blue-600"
+            onClick={() => setIsOpen(false)}
+          >
+            {link.title}
+          </Link>
+        )}
+      </div>
+    ))}
+  </div>
+</div>
+
+
       )}
     </nav>
   );

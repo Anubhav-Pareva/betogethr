@@ -32,7 +32,7 @@ navigation('/careers');
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white rounded-2xl shadow-md">
+    <div className="max-w-md mx-auto p-6 my-4 bg-white rounded-2xl shadow-md">
         <BackButton/>
       <h2 className="text-xl font-semibold mb-4 text-center">Apply Now</h2>
 

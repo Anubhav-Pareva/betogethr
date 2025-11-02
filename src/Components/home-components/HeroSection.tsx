@@ -56,7 +56,7 @@ export default function HeroSection() {
       {/* RIGHT SIDE - STACKED CARDS */}
       <div className="relative flex justify-center md:justify-end mb-18">
         {/* Card 1 */}
-        <div className="absolute top-24 md:top-32 -right-1 sm:right-32 md:right-32 w-56 sm:w-64 md:w-72 rounded-2xl overflow-hidden shadow-xl transform rotate-6 md:-rotate-24 bg-green-100 p-1">
+        <div className="absolute top-24 md:top-32 right-2 sm:right-32 md:right-32 w-56 sm:w-64 md:w-72 rounded-2xl overflow-hidden shadow-xl transform rotate-6 md:-rotate-24 bg-green-100 p-1">
           <img
             src={images.cardpic3}
             alt="Card 3"
@@ -68,7 +68,7 @@ export default function HeroSection() {
         </div>
 
         {/* Card 2 */}
-        <div className="absolute top-10 md:top-14 right-12 sm:right-72 md:right-16 w-56 sm:w-64 md:w-72 rounded-2xl overflow-hidden shadow-xl -rotate-6 transform md:-rotate-12 bg-yellow-100 p-1">
+        <div className="absolute top-10 md:top-14 right-22 sm:right-72 md:right-16 w-56 sm:w-64 md:w-72 rounded-2xl overflow-hidden shadow-xl -rotate-6 transform md:-rotate-12 bg-yellow-100 p-1">
           <img
             src={images.cardpic2}
             alt="Card 2"

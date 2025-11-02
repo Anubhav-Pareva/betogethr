@@ -25,11 +25,13 @@ import InvestorContact from "./Components/investor-components/InvestorContact";
 import BlogDetail from "./Pages/BlogDetail";
 import CareerDetail from "./Pages/CareerDetail";
 import ApplyJob from "./Pages/ApplyJob";
+import ScrollToTop from "./Components/common-components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
       {/* ✅ Route Definitions */}
+      <ScrollToTop/>
       <Routes>
         {/* ✅ Wrap all routes inside layout */}
         <Route path="/" element={<MainLayout />}>

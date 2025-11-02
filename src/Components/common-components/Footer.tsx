@@ -5,6 +5,7 @@ import {
   companyFooterNav,
   legalFooterNav,
 } from "../../Constants/Data";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -12,12 +13,12 @@ export default function Footer() {
       <div className=" mx-auto px-6 py-12 flex flex-col md:flex-row justify-center gap-10">
         {/* LEFT SIDE */}
         <div>
-          <h1 className="text-2xl font-bold text-white">
+          <NavLink to='/' className="text-2xl font-bold text-white">
             Be
             <span className="text-transparent bg-clip-text bg-linear-to-r from-yellow-400 via-purple-500 to-blue-500">
               TOGETHR
             </span>
-          </h1>
+          </NavLink>
           <p className="mt-3 text-white max-w-md text-sm leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec massa
             ante orci at ac ut pharetra ultricies quis. Neque dictum volutpat

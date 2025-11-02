@@ -1,3 +1,5 @@
+import { images } from "./Images";
+
 export const Privacy_policy =
   '<h1>Privacy Policy</h1><p>Last updated: November 1, 2025</p><p>Welcome to our dating app ("we", "our", or "us"). We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our services.</p><h2>1. Information We Collect</h2><ul><li><strong>Personal Information:</strong> Name, email address, phone number, gender, and age.</li><li><strong>Profile Information:</strong> Photos, bio, interests, and preferences you choose to share.</li><li><strong>Usage Data:</strong> App usage patterns, interactions, and device information such as IP address, browser type, and operating system.</li></ul><h2>2. How We Use Your Information</h2><ul><li>To create and manage your account.</li><li>To match you with compatible users.</li><li>To personalize your experience and show relevant suggestions.</li><li>To improve our services and app features.</li><li>To send updates, promotional offers, or important notifications.</li></ul><h2>3. Sharing of Information</h2><p>We do not sell your personal information. However, we may share data with:</p><ul><li>Service providers who assist in app operations (hosting, analytics, payment processing).</li><li>Law enforcement, when required by law or for safety reasons.</li></ul><h2>4. Data Security</h2><p>We implement industry-standard security measures to protect your data from unauthorized access, alteration, or disclosure. However, no digital system is 100% secure, and we cannot guarantee absolute protection.</p><h2>5. Your Rights</h2><p>You may update or delete your account information at any time through the app settings. You may also contact us to request data removal or access to your stored data.</p><h2>6. Cookies and Tracking</h2><p>We use cookies and similar technologies to improve app functionality and user experience. You can control cookie usage through your browser settings.</p><h2>7. Third-Party Links</h2><p>Our app may contain links to third-party websites or services. We are not responsible for their privacy practices or content.</p><h2>8. Children\'s Privacy</h2><p>Our app is intended for users aged 18 and above. We do not knowingly collect data from minors.</p><h2>9. Changes to This Policy</h2><p>We may update this Privacy Policy from time to time. The latest version will always be available within the app or on our website.</p><h2>10. Contact Us</h2><p>If you have any questions or concerns about this Privacy Policy, please contact us at <a href=\'mailto:support@yourapp.com\'>support@yourapp.com</a>.</p><p>By using our app, you agree to this Privacy Policy.</p>';
 
@@ -149,3 +151,33 @@ export const blogContent = `
       </p>
     </div>
   `;
+
+  export const teamData= [
+  {
+    id: 1,
+    img: images.ghostImg,
+    name: "Anubhav Pareva",
+    codeName: "VisionCrafter",
+    role: "Founder",
+    expertise: "Frontend Development",
+    bio: "Anubhav Pareva, Founder and Frontend Developer, is passionate about crafting seamless, human-centered digital experiences that connect people effortlessly."
+  },
+  {
+    id: 2,
+    img: images.captainImg,
+    name: "Nikhil Singhal",
+    codeName: "CodeArchitect",
+    role: "Founder",
+    expertise: "Backend Development",
+    bio: "Nikhil Singhal, Co-founder and Backend Developer, specializes in building robust, scalable systems that power smooth and secure user experiences."
+  },
+  {
+    id: 3,
+    img: images.johnImg,
+    name: "Priyansha",
+    codeName: "TechStrategist",
+    role: "Director",
+    expertise: "Backend Development",
+    bio: "Priyansha, Director and Backend Expert, focuses on driving technical excellence and strategic growth through efficient backend systems and innovation."
+  }
+];

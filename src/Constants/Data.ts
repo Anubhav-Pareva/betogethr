@@ -287,3 +287,51 @@ export const companyFooterNav = [
     url: "/careers",
   },
 ]
+
+export const pressLogData = [
+  {
+  id:1,
+  url:icons.abc,
+  alt:"abc",
+},
+{
+  id:2,
+  url:icons.bbc,
+  alt:"bbc",
+},
+{
+  id:3,
+  url:icons.bustle,
+  alt:"bustle",
+},
+{
+  id:4,
+  url:icons.cheddar,
+  alt:"cheddar",
+},
+{
+  id:5,
+  url:icons.datingAdvice,
+  alt:"dating advice",
+},
+{
+  id:6,
+  url:icons.newYorkTime,
+  alt:"new york time",
+},
+{
+  id:7,
+  url:icons.tnw,
+  alt:"tnw",
+},
+{
+  id:8,
+  url:icons.yahoo,
+  alt:"yahoo",
+},
+{
+  id:9,
+  url:icons.yourTango,
+  alt:"your tango",
+},
+];

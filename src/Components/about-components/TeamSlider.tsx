@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { images } from "../../Constants/Images";
 import { teamData } from "../../Constants/TempData";
 
 export default function TeamSlider() {

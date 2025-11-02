@@ -6,7 +6,7 @@ interface JobCardProps {
 export default function JobCard({ job }: JobCardProps) {
   return (
     <Link
-      to={`/careers/detail?id=${job.id}`}
+      to={`/careers/detail/${job.id}`}
       className="flex flex-col gap-2 justify-between w-[300px] bg-white rounded-2xl p-3 hover:scale-95 transition duration-300 ease-in-out"
     >
       <div className="flex gap-1 items-center">

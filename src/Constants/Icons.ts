@@ -35,4 +35,6 @@ export const icons = {
   financialWhite: "/icons/financial-white.svg",
   investorContactBlack: "/icons/investor-contact-black.svg",
   investorContactWhite: "/icons/investor-contact-white.svg",
+  backArrowBlack: "/icons/back-arrow-black.svg",
+  backArrowWhite: "/icons/back-arrow-white.svg",
 };

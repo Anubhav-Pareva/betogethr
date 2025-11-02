@@ -23,6 +23,8 @@ import ProblemSolution from "./Components/investor-components/ProblemSolution";
 import FinancialSnapshot from "./Components/investor-components/FinancialSnapshot";
 import InvestorContact from "./Components/investor-components/InvestorContact";
 import BlogDetail from "./Pages/BlogDetail";
+import CareerDetail from "./Pages/CareerDetail";
+import ApplyJob from "./Pages/ApplyJob";
 
 function App() {
   return (
@@ -55,6 +57,8 @@ function App() {
             <Route path="contact" element={<InvestorContact />} />
           </Route>
           <Route path="careers" element={<Career />} />
+          <Route path="careers/detail/:id" element={<CareerDetail />} />
+          <Route path="careers/apply-job/:id" element={<ApplyJob />} />
           <Route path="contact" element={<Contact />} />
           <Route path="blogs" element={<Blog />}/>
             <Route path="blogs/detail/:id" element={<BlogDetail />} />
